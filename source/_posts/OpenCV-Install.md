@@ -6,7 +6,7 @@ tags:
     - Python
 ---
 
-> 此文章主要介绍OpenCV及其安装，安装也主要侧重说明相关注意事项。侧重于想要使用 python 玩/开发 opencv 的读者
+> OpenCV安装的坑真的很多，它不仅可能出现在安装初期，还可能出现在你用opencv开发一段时间之后，前者还好，因为总归有可能解决（windows下持疑），如果遇到后者，那就可能真是gg了。本文介绍了整个安装过程以及各个步骤需要注意的问题，包括windows，Ubuntu系统以及 OpenCV2、3两个版本
 
 <!-- more -->
 最近 嵌入式课程设计 的其中一个功能模块是人脸识别，因为时间关系，决定采用 OpenCV，一天速成后又踩了几天的坑，发现网上能找到的关于 opencv-python 的文档较少，因为版本不同也存在一些坑，因此后续希望能通过几篇文章将这几天遇到的、了解到的相关信息以及相关python实现记录下来（c++实现文档还是挺多的）。
@@ -64,7 +64,7 @@ cv2.imshow("win_name", img)
 cv2.waitKey(0) 
 ```
 运行后应该可以得到图像
-![](opencv-test.png)
+![](/images/OpenCV-Install/opencv-test.png)
 
 ## 最后
 首先，在windows上安装opencv是很麻烦的，又如果是 3.x 版本，因为 contrib 的存在，必须编译安装，这是 windows 天生就不擅长的事情。因此如果是在 windows 下，有如下建议

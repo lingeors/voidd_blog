@@ -6,7 +6,7 @@ tags:
     - Python
 ---
 
-> 此文章主要介绍 OpenCV 的基本使用。读者需具备 Python 的基础知识
+> OpenCV说到底就是一个C++实现的库，因此所谓的 opencv基本使用，实际上就是学习opencv的接口以及接口涉及到的相关知识。本文使用的具体语言为 python
 
 <!-- more -->
 
